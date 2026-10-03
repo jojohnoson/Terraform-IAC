@@ -1,0 +1,11 @@
+# Ignore local Terraform cache and binaries
+.terraform/
+.terraform.lock.hcl
+
+# Ignore state files (may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Ignore variables containing sensitive data
+*.tfvars
+*.tfvars.json
